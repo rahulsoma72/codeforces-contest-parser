@@ -17,14 +17,6 @@ A personal submission parser for CF, parsed by individual contests.
       user's performance like - Rating Change, New rating, Rank, Problems successfully solved etc.
 * If a folder was previously present i.e a contest was previously parsed by this scraper, it'll ignore    the contest and move one to the next unfinished contest
 
-# Youtube demo
-[My first youtube tutorial](https://youtu.be/bci2ogajpFI)
-
-# Script prompting the username
-![1](https://user-images.githubusercontent.com/39147514/65044905-7219a980-d97b-11e9-9256-21bc4c4d1d58.png)
-
-# Script prompting for no of contests
-![cf2](https://user-images.githubusercontent.com/39147514/65045330-36331400-d97c-11e9-9d06-dbca202d2ce2.png)
 
 # What to do
 * Download only the **cf.py** file 
@@ -35,24 +27,6 @@ A personal submission parser for CF, parsed by individual contests.
 * **Bonus** - If you place it in a **git initialised repository**, after the script finishes, you can simply commit all the changes and all your contest-codes will be pushed to github
 * An active internet connection while the script parses
 
-# Middle of file parsing (has scraped 1 contest till now..)
-![45](https://user-images.githubusercontent.com/39147514/65045096-ce7cc900-d97b-11e9-90e5-17a9ede25ff6.png)
-
-# Middle of parsing(has scraped 2 contests till now..)
-![4545](https://user-images.githubusercontent.com/39147514/65045430-64185880-d97c-11e9-90ce-a6c2553192ba.png)
-
-# End of parsing 
-![4564](https://user-images.githubusercontent.com/39147514/65045480-7a261900-d97c-11e9-8ca9-8c71f01eae44.png)
-
-# Peek inside the directory structure of a contest
-![101](https://user-images.githubusercontent.com/39147514/65045540-9c1f9b80-d97c-11e9-9fdd-854269d1dc50.png)
-![456456](https://user-images.githubusercontent.com/39147514/65045565-a9d52100-d97c-11e9-83e5-94b7453f3c1c.png)
-
-### Some users may encounter a https error. Here's the walkthrough.
-You need to change all the **https** to **http** and delete the argument **verify = True** from every get request.
-![verify-true-git](https://user-images.githubusercontent.com/39147514/65818085-cc442580-e22b-11e9-8e05-bd04eadb6965.png)
-
-The highlighted parts show the https and verify=True clauses. They need to be dealt with as described above the pic.
 
 ## Requirements
 * Modules
