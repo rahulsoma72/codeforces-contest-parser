@@ -1,5 +1,4 @@
-# Built by greenindia - Sabuj Jana - Jadavpur University 
-# www.janasabuj.github.io
+
 import os
 import sys
 import requests
